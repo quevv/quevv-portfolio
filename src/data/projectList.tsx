@@ -104,6 +104,51 @@ const projectsList: IProject[] = [
     },
     {
 
+        name: "Netflix Platform",
+        slug: "Netflix",
+        appType: "Netflix UI Clone.",
+        thumnailUrl: "/images/projects/Netflix-poster.png",
+        projectType: "Learning ReactJS",
+        technologies: [
+            {
+                name: "ReactJS",
+                isMyPosition: true
+            },
+            {
+                name: "Redux Toolkit",
+                isMyPosition: true
+            },
+            {
+                name: "Firebase",
+                isMyPosition: true
+            },
+            {
+                name: "Styled Components",
+                isMyPosition: true
+            },
+            {
+                name: "Axios",
+                isMyPosition: true
+            },
+        ],
+        position: "Frontend",
+        teamSize: {
+            Backend: 1,
+            Frontend: 1,
+            Mobile: 0,
+            Fullstack: 1,
+        },
+        shortDescription: `
+        <p>Netflix UI Clone built using React, Redux Toolkit, Firebase, Styled Components, Axios.</p>
+        `,
+        fullDesciption: `
+        <p>The application provides functions to help you filter, view, and watch movies.</p>
+        <p><br></p>
+        <p>Alternatively, you can sign up, and login to add movies to <strong>My List</strong>, from there you can store favorite movies so you can watch later.</p>
+        <p><br></p>
+        `,
+    },
+    {
         name: "VieShare Platform",
         slug: "vieshare",
         appType: "A knowledge sharing platform.",
@@ -136,7 +181,6 @@ const projectsList: IProject[] = [
         <p><br></p>
         `,
     },
-
 ]
 
 export { projectsList }

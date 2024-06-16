@@ -10,6 +10,8 @@ interface Props extends IProps {
 export default function ProjectList({ children, className, projectsList, cardClassName, data, ...props }: Props) {
     const leftData: JSX.Element[] = [];
     const rightData: JSX.Element[] = [];
+    console.log(projectsList);
+
     projectsList.forEach((value: IProject, index: number) => {
         const card = <ProjectCard data={value} key={value.name} className={cardClassName ? cardClassName : ""} />
         if (index % 2 == 0) {

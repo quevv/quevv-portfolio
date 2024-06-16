@@ -87,7 +87,7 @@ export default function Home() {
             </section >
             {/* My Portfolio Body Home Page */}
             <section className="">
-                <ProjectList projectsList={projectsList.slice(0, 4)} cardClassName="bg-neutral-900">
+                <ProjectList projectsList={projectsList.slice(0, 5)} cardClassName="bg-neutral-900">
                     <div>
                         <div className="py-4 text-2xl font-semibold uppercase">
                             <span className="text-blue-700 h-14">/</span> My portfolio
